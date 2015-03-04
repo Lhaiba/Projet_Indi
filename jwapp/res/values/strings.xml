@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">jwapp</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- General -->
+    <string name="icon">icon</string>
+    <string name="select_icon_header">Sélectionner une icône</string>
+    <string name="select_icon_back">Retour</string>
+
+    <!-- Exercise -->
+    <string name="exercise_icon">Icone d\'exercice</string>
+    <string name="nameless_exercise">Exercice</string>
+    <string name="exercise_row_edit">Editer exercice</string>
+    <string name="exercise_row_delete">Supprimer exercice</string>
+
+    <!-- Exercise create -->
+    <string name="exercise_create_category_select">Sélectionnez la catégorie de votre exercice :</string>
+    <string name="exercise_create_model_indication_default">Pour choisir un modèle d\'exercice, choisissez une catégorie via l\'onglet Catégorie.</string>
+    <string name="exercise_create_details_indication_default">Pour définir un exercice en détail, choisissez d\'abord sa catégorie via l\'onglet Catégorie.</string>
+
+    <!-- General -->
+    <string name="exercise_create_details_general_name">Nom de l\'exercice</string>
+    <string name="exercise_create_details_general_image_indication">Icone de l\'exercice</string>
+    <string name="exercise_create_details_general_image_button">Choisir une image</string>
+    <string name="exercise_create_details_general_validate_button">Enregistrer</string>
+    <string name="exercise_create_details_general_reset_button">Réinitialiser les champs</string>
+
+    <!-- Musculation -->
+    <string name="exercise_create_details_muscu_header">Création d\'un exercice de musculation</string>
+    <string name="exercise_create_details_muscu_nb_repetitions">Définir un nombre de répétitions</string>
+    <string name="exercise_create_details_muscu_tps_repos">Définir un temps de repos</string>
+
+    <!-- Cardio -->
+    <string name="exercise_create_details_cardio_header">Création d\'un exercice de cardio</string>
+    <string name="exercise_create_details_cardio_parcours">Choisir un parcours</string>
+    <string name="exercise_create_details_cardio_temps">Définir une durée (en ms)</string>
+
+</resources>

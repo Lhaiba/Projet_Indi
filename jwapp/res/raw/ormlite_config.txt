@@ -1,0 +1,53 @@
+#
+# generated on 2015/03/02 01:36:55
+#
+# --table-start--
+dataClass=com.example.data.Category
+tableName=category
+# --table-fields-start--
+# --field-start--
+fieldName=id
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=nom
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.example.data.Exercise
+tableName=exercise
+# --table-fields-start--
+# --field-start--
+fieldName=id
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=nom
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=image
+# --field-end--
+# --field-start--
+fieldName=category
+canBeNull=false
+foreign=true
+foreignAutoRefresh=true
+# --field-end--
+# --field-start--
+fieldName=nbRepetitions
+# --field-end--
+# --field-start--
+fieldName=tpsRepos
+# --field-end--
+# --field-start--
+fieldName=parcours
+# --field-end--
+# --field-start--
+fieldName=temps
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
